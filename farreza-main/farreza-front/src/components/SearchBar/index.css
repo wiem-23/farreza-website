@@ -1,0 +1,91 @@
+.input-header {
+  display: flex;
+  background-color: #f3f5f5;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-header .select {
+  outline: none;
+  border: none;
+  background-color: #f3f5f5;
+  border-radius: 4px 0 0 4px;
+  color: #999999;
+  font-family: inherit;
+  padding: 0 21px 0 15px;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.search-icon svg {
+  margin-left: -100px;
+}
+.search-icon svg {
+  position: absolute;
+  left: 0px;
+  color: #c7c7c7;
+  margin-left: 20px;
+}
+
+.input-header fieldset {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 540px;
+  background-color: #f3f5f5;
+  border-left: 1px solid #e4e4e4;
+}
+
+.select > div:first-child {
+  padding: 1px;
+}
+
+.select > div:first-child svg {
+  position: absolute;
+  left: 50px;
+  top: 0%;
+  color: #999999;
+}
+
+.filter-price {
+  position: absolute;
+  background-color: white;
+  padding: 10px 20px 5px 20px;
+  left: 0px;
+  top: 30px;
+}
+
+.filter-price input {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .input-header {
+    width: 430px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .input-header {
+    display: none;
+  }
+
+  header .login-signup,
+  header .logout {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
+
+  header .menu-mobile {
+    display: block;
+    position: absolute;
+    right: 5%;
+    font-size: 26px;
+    color: #c7c7c7;
+    top: 25%;
+  }
+}

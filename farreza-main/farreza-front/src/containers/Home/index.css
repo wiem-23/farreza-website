@@ -1,0 +1,61 @@
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pages span:not(:last-child) {
+  margin-right: 20px;
+}
+
+.pages svg:first-child {
+  margin-right: 20px;
+}
+
+.pages svg {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.order-by-login-signup {
+  border: 1px solid #5a93ce;
+  background-color: white;
+  color: #5a93ce;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.pages span {
+  cursor: pointer;
+  color: #111111;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.pages span:hover {
+  text-decoration: underline;
+  background-color: #f2f5f5;
+}
+
+.pages .not-allowed {
+  color: #cad1d9;
+  cursor: initial;
+}
+
+.loading-home {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  padding-bottom: 100px;
+}

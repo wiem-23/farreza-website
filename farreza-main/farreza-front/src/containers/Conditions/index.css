@@ -1,0 +1,37 @@
+.cgu-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+.cgu-container > *{
+    margin-bottom: 18px;
+    line-height: 24px;
+}
+
+.cgu-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00204a;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.cgu-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type:decimal;
+    padding-left: 40px;
+}
+.cgu-list > *{
+    margin-bottom: 10px;
+    margin-bottom: 18px;
+}
+/*RESPONSIVE DESIGN*/
+@media (max-width: 570px){
+    .cgu-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .cgu-container {
+        padding: 0 18px;
+    }
+}

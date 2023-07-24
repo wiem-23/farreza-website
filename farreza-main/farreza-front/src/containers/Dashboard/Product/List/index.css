@@ -1,0 +1,72 @@
+table {
+    box-shadow: 0 5px 5px 0 rgba(46, 51, 51, 0.03);
+    width: 100%;
+}
+
+table,
+tr,
+th,
+td,
+thead {
+    border: 0.5px #00204a dashed !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr,
+td,
+th,
+thead {
+    padding: 10px;
+}
+
+.listimg {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.list {
+    cursor: unset;
+    overflow-x : auto;
+}
+
+.actionButton {
+    border: 1px solid #5a93ce;
+    background-color: white;
+    color: #5a93ce;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.editButton {
+    border: 1px solid #5a93ce;
+    background-color: white;
+    color: #5a93ce;
+}
+
+.deleteButton {
+    border: 1px solid #facf5a;
+    background-color: white;
+    color: #facf5a;
+}
+
+.acceptButton {
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+.rejectButton {
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+}

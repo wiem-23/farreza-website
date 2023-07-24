@@ -1,0 +1,10 @@
+{
+  "appId": "com.farreza.app",
+  "appName": "farreza",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://farreza.com",
+    "cleartext": true
+  }
+}

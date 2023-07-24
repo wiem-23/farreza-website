@@ -1,0 +1,136 @@
+/* HERO BANNER */
+
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.hero-banner h1,
+.mobile-description h1 {
+  font-size: 34px;
+  line-height: 42.5px;
+  color: #111111;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-family: "Maison Neue Bold", sans-serif;
+}
+
+.hero-banner p,
+.mobile-description p {
+  color: #5a93ce;
+  font-size: 14px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.hero-banner > div:nth-child(3) img {
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
+  width: 100%;
+  height: auto;
+}
+
+.hero-banner > div:nth-child(2) {
+  position: absolute;
+  top: 25%;
+  background-color: #fff;
+  width: 400px;
+  height: 250px;
+  left: 14%;
+  border-radius: 8px;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 565px;
+  object-fit: cover;
+}
+
+.mobile-description {
+  display: none;
+}
+
+.hero-banner button,
+.mobile-description button {
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #5a93ce;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.mobile-commande-list-card{
+  display: none !important;
+}
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1000px) {
+  .hero-banner > div:nth-child(2) {
+    left: 5%;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-banner div:nth-child(2) {
+    display: none;
+  }
+
+  .hero-banner > div:nth-child(3) img {
+    left: 0%;
+    width: 100%;
+  }
+
+  .hero-banner img {
+    height: 10%;
+  }
+
+  .mobile-description {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .mobile-description h1 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-description p {
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .mobile-description button {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .publish-section input[type="number"]{
+    margin: 20px 0 5px 0;
+  }
+  .commande-table{
+    display: none !important;
+  }
+  .mobile-commande-list-card{
+    display: flex !important;
+  }
+}

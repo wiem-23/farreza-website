@@ -1,0 +1,258 @@
+/* OFFER ITEM PAGE */
+
+.offer-section {
+  background-color: #ebedee;
+  padding-top: 10px;
+}
+
+.offer-product {
+  display: flex;
+  margin: auto;
+  margin-top: 90px;
+  justify-content: center;
+  padding-bottom: 75px;
+}
+
+.offer-product>div:first-child {
+  /* width: 1000px; */
+  flex-wrap: wrap;
+}
+
+.offer-product .one-picture img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 624px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.offer-product>div:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: -80px; */
+  margin-top: -30px;
+}
+
+.offer-product .some-pictures img {
+  margin-right: 5px;
+  margin-bottom: 3px;
+  width: 462px;
+  height: 624px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.offer-product>div:last-child {
+  width: 310px;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+
+.offer-product>div>div:first-child {
+  margin-bottom: 20px;
+}
+
+.offer-product>div>div:first-child,
+.offer-product>div>div:nth-child(2) {
+  background-color: #fff;
+  box-shadow: 0 22px 24px 0 rgba(46, 51, 51, 0.03);
+  padding: 20px;
+}
+
+.offer-product>div>div:nth-child(3) {
+  width: 115%;
+}
+
+.offer-product>div>div:first-child>p:first-child {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.offer-product .cgv {
+  color: #999999;
+  line-height: 18px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.offer-product .product-description p:first-child {
+  color: #111111;
+  overflow-wrap: break-word;
+  margin-top: 15px;
+  font-family: "Maison Neue Bold";
+}
+
+.offer-product .product-description p:last-child {
+  overflow-wrap: break-word;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+}
+
+.offer-product .user-description {
+  display: flex;
+  align-items: center;
+  overflow-wrap: break-word;
+  font-size: 14px;
+
+  position: relative;
+}
+
+.offer-product .user-description img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.offer-description {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.offer-description>p:first-child {
+  color: #999999;
+}
+
+.offer-description>p:last-child {
+  color: #666666;
+  text-align: right;
+}
+
+.offer-description>p {
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+.offer-product .submitButton {
+  border: none;
+  background-color: #5a93ce;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.offer-product .wishButton {
+  border: 1px solid #5a93ce;
+  background-color: #fff;
+  color: #5a93ce;
+  border-radius: 5px;
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.offer-product a {
+  text-decoration: none;
+}
+
+.user-description .rating {
+  display: flex;
+  color: #f7c60e;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.user-description>svg {
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  color: #bbbbbb;
+}
+
+.user-description .rating>svg {
+  margin-right: 3px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1260px) {
+  .offer-product {
+    flex-wrap: wrap;
+  }
+
+  .offer-product>div:first-child {
+    width: 98%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin: auto;
+  }
+
+  .offer-product>div:first-child::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .offer-product .some-pictures img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .offer-product>div:last-child {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .offer-product>div>div:nth-child(3) {
+    width: 100%;
+    margin: auto;
+  }
+
+  .offer-product .cgv {
+    margin-left: 0px;
+  }
+
+  .offer-product .one-picture img {
+    width: 100%;
+    height: 524px;
+  }
+  .product-image-container{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .article-details{
+    width: 100%;
+  }
+  .login-btn{
+    background-color: #f7c60e;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

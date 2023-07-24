@@ -1,0 +1,41 @@
+.orderBy {
+  width: 90%;
+  display: flex;
+  max-width: 1400px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.orderBy select {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+@media (max-width: 720px) {
+  .orderBy {
+    margin-top: 50px;
+  }
+}
+
+.FilterByCategory {
+  display: none;
+  width: 90%;
+  display: flex;
+  max-width: 1400px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.FilterByCategory select {
+  display: none;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+@media (max-width: 720px) {
+  .FilterByCategory {
+    margin-top: 50px;
+  }
+}

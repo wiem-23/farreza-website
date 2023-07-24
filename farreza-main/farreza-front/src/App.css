@@ -1,0 +1,47 @@
+/* GLOBAL */
+
+body {
+  font-family: "Maison Neue", sans-serif;
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-section hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(237, 237, 237);
+  padding: 0;
+}
+
+input::placeholder {
+  color: #c7c7c7;
+}
+
+.carrousel {
+  margin-top: 200px;
+}
+
+/* PAGINATION */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.pagination a {
+  padding: 0 13px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active {
+  font-family: "Maison Neue Bold";
+}

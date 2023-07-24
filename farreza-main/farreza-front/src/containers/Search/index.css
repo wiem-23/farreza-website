@@ -1,0 +1,66 @@
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pages span:not(:last-child) {
+  margin-right: 20px;
+}
+
+.pages svg:first-child {
+  margin-right: 20px;
+}
+
+.pages svg {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pages span {
+  cursor: pointer;
+  color: #111111;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.pages span:hover {
+  text-decoration: underline;
+  background-color: #f2f5f5;
+}
+
+.pages .not-allowed {
+  color: #cad1d9;
+  cursor: initial;
+}
+
+.loading-home {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.loading-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+  width: 100%
+}

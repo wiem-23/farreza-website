@@ -1,0 +1,10 @@
+.BackTextStyle {
+    color: #5a93ce;
+    cursor: pointer;
+    background-image: url(https://cdn2.iconfinder.com/data/icons/50-material-design-round-corner-style/44/Back-512.png);
+    background-size: contain;
+    color: #5a93ce;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-left: 28px;
+}
